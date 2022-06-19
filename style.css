@@ -1,0 +1,66 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body{
+  width: 100%;
+  font-family: "[Open Sans](https://fonts.google.com/specimen/Open+Sans)";
+  font-weight: 400;
+} */
+/* css for contents in header tag */
+.hud{
+background-color:  hsla(209, 11%, 55%, 0.288)
+;
+display: flex;
+justify-content: space-between;
+padding: 2rem 5rem;  
+font-weight: 600;
+/* font-family: "[Poppins](https://fonts.google.com/specimen/Poppins)"; */
+}
+#card img{
+  padding-bottom: 100px;
+}
+#pin img{
+  width: 100%;
+}
+/* #card{
+  padding: 5rem;
+} */
+#card h1{
+  margin-bottom:1rem;
+}
+#card p{
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 18px;
+}
+button{
+  border: none;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 3px;
+  height: 40px;
+}
+#card button{
+  background-color: hsl(322, 100%, 66%);
+}
+#pin button{
+  background-color: white;
+  margin-bottom: 30px;
+}
+#card a{
+  color: hsl(192, 100%, 9%);
+}
+a{
+  text-decoration: none;
+}
+#card{
+  padding: 15px;
+}
+#pin{
+  padding: 15px;
+}
